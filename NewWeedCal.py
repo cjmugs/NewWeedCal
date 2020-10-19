@@ -1,12 +1,9 @@
 # Item Cost
 num = float(input("Enter a Purchase Price: "))
-
 # loyalty Points
 num_2 = float(input("Enter Loyalty Points: "))
-
 # THC Percentage
 num_3 = float(input("Enter THC Amount: "))
-
 # Veteran Discount
 vet_disc = float(num * .10)
 
