@@ -5,7 +5,7 @@ num = float(input("Enter a Purchase Price: "))
 num_2 = float(input("Enter Loyalty Points: "))
 
 # THC Percentage
-num_3 = float(input("Enter THC: "))
+num_3 = float(input("Enter THC Amount: "))
 
 # Veteran Discount
 vet_disc = float(num * .10)
@@ -14,3 +14,9 @@ vet_disc = float(num * .10)
 weed_tax_1 = float(num * .0789)
 weed_tax_2 = float(num * .0705)
 weed_tax_3 = float(num * .04)
+
+# if statement for totals
+if(num_3 <= 35):
+    print("False")
+else:
+    print("True")
