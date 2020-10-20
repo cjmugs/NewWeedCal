@@ -16,19 +16,20 @@ weed_tax_4 = float(num * .10)
 tax_total = weed_tax_1 + weed_tax_2 + weed_tax_3
 tax_total_2 = weed_tax_1 + weed_tax_2 + weed_tax_3 + weed_tax_4
 
-# Sums of totals
+# Sums of totals without discounts
+result_1 = num + tax_total 
+result_2 = num + tax_total_2
 
-
+# Sums of totals with discounts
+result_3 = num + tax_total - vet_disc - num_2
+result_4 = num + tax_total_2 - vet_disc - num_2
 # if statement for percentage totals
 if(num_3 <= 35):
     print("Total Taxes for less than 35% = ","$", tax_total)
-    print("Total with taxes and discounts = ","$",)
-    print("Total without taxes and discounts = ","$",)
+    print("Total with taxes and discounts = ","$", result_3)
+    print("Total with taxes and without discounts = ","$", result_1)
 else:
     print("Total Taxes for greater than 35% = ","$", tax_total_2)
-    print("Total with taxes and discounts = ","$",)
-    print("Total without taxes and discounts = ","$",)
+    print("Total with taxes and discounts = ","$", result_4)
+    print("Total with taxes and without discounts = ","$", result_2)
 
-#print("Veteran Discount = ","$", vet_disc)
-#print("Total without discounts", "$", total_2 )
-#print("Total with discounts = ","$", total)
