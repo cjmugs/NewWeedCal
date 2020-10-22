@@ -1,9 +1,42 @@
 .welcome{
     text-align: center;
+    font-family: Impact;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: red;
 }
 .Disclaimer{
     text-align: center;
+    position: relative; bottom: -400px;
+    color: black;
 }
 .text{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.instructions{
+    position: relative; top: 8px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: red;
+}
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+.click{
+    position:relative; top: 50px;
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
