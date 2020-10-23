@@ -1,14 +1,11 @@
 .welcome{
     text-align: center;
-    font-family: Impact;
-    border-style: solid;
-    border-width: 1px;
-    border-left-width: 3px;
-    border-right-width: 3px;
-    border-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .Disclaimer{
     text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative; bottom: -400px;
     color: black;
 }
@@ -18,7 +15,7 @@
     font-size: 16px;
     color: black;
 }
-.instructions{
+.instructions{  
     position: relative; top: 8px; 
     text-align: center; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,14 +26,42 @@
     border-color: red;
 }
 h1{
-    color: red;
+    color: black;
+    
 }
 h2{
     color: red;
 }
 .click{
-    position:relative; top: 50px;
+    position:relative; top: 3px;
     text-align: center;
     color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cal{
+    background-color: red;
+    border: 3px solid red;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+.cal:hover{
+    background-color: rgb(56, 129, 86);
+    border: 3px solid rgb(56, 129, 86);
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+.image{
+    text-align: center;
+    position: relative; top: 200px;
+}
+body{
+    background-color: rgb(95, 122, 95);
+}
+.form{
+    text-align: center;
+}
+.price{
+    text-align: center;
 }

@@ -8,10 +8,10 @@
         <h1 id="welcome" class="welcome">Welcome to my Illinois Weed Tax Calculator!</h1>
     <div id="text" class="text">
         <p id="hello">Hello and welcome.</p>
-        <p>This is a Illinois recreational Weed tax calculator that I have built for everyone to use in Illinois.</p>
+        <p>This is a Illinois recreational Weed tax calculator that I have built for everyone to use.</p>
         <p>This calculator is designed to calculate the total recreational taxes to be collected,<br>
         as well as any discounts that might apply.
-        <br>Discounts that might apply are Veteran discount, daily discounts and loyalty points</p>
+        <br>Discounts that might apply are Veteran discount and loyalty points, Daily discounts are NOT added.</p>
     </div>
     <div id="instructions" class="instructions">
         
@@ -23,10 +23,16 @@
         <p>That's all and then the calculator will compute the totals with taxes and
             <br>if there are any discounts that apply.</p>
     </div>
-    <div id="click" class="click">Click Here!</div>
+   
+    <div id="form" class="form">
+        {% block body %}
+            <h2>Calculator</h2>
+            <button id="cal" class="cal"><a href="Calculator/NewWeedCal.py">Click this shit</a></button>
+        {% endblock %}
+    </div>
     <div id="Disclaimer" class="Disclaimer">
         <p>DISCLAIMER THIS IS CREATED ONLY TO GIVE YOU AN IDEA AS TO ABOUT HOW MUCH IT WILL COST IN THE STORES.<br>
-        I AM NOT CLAIMING ANY LEGAL RESPONSIBILITY FOR ANY MISUSE OF THIS APP.</p>
+       NOT THE EXACT AMOUNT, DUE TO TAX AND PRICE CHANGES.<br>I AM NOT CLAIMING ANY LEGAL RESPONSIBILITY FOR ANY MISUSE OF THIS APP.</p>
     </div>    
     </body>
 </html>

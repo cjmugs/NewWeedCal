@@ -25,11 +25,11 @@ result_3 = num + tax_total - vet_disc - num_2
 result_4 = num + tax_total_2 - vet_disc - num_2
 # if statement for percentage totals
 if(num_3 <= 35):
-    print("Total Taxes for less than 35% = ","$", tax_total)
+    print("Total Taxes for less than 35% THC = ","$", tax_total)
     print("Total with taxes and veteran discount = ","$", result_3)
     print("Total with taxes and without discounts = ","$", result_1)
 else:
-    print("Total Taxes for greater than 35% = ","$", tax_total_2)
+    print("Total Taxes for greater than 35% THC = ","$", tax_total_2)
     print("Total with taxes and veteran discount = ","$", result_4)
     print("Total with taxes and without discounts = ","$", result_2)
 
